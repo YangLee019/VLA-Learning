@@ -4,7 +4,7 @@
 
 ## 如何使用
 
-1. 按阶段阅读。从 [第 0 阶段：机器人模仿学习基础](./00-foundations/README.md) 开始，依次进入 [第 1 阶段：RT-1 与 RT-2](./01-rt-series/README.md)及[第 2 阶段：跨机器人数据与通用策略](./02-cross-embodiment/README.md)。
+1. 按阶段阅读。从 [第 0 阶段：机器人模仿学习基础](./00-foundations/README.md) 开始，依次进入 [第 1 阶段：RT-1 与 RT-2](./01-rt-series/README.md)、[第 2 阶段：跨机器人数据与通用策略](./02-cross-embodiment/README.md)和[第 3 阶段：OpenVLA](./03-openvla/README.md)。
 2. 时间紧时以中文讲义为主线：先读导学与讲义，再按讲义标出的图表和章节核对本地论文 PDF，最后做带解析的复盘题。
 3. 笔记中的流程图为本仓库绘制的概念示意；实验数字和具体实现以对应论文为准。
 4. 在读论文时持续记录：**问题设定 → 输入与动作表示 → 模型与损失 → 数据 → 实验 → 局限**。
@@ -22,7 +22,7 @@
 | 06 | 经验学习与泛化 | π*₀.₆、π₀.₇ |
 | 后续 | VLA 与世界模型的结合 | 视频预测、规划、想象式训练 |
 
-目前已建立第 0–2 阶段；后续阶段在学习时逐步补充。仓库中的论文 PDF 是原始资料，中文笔记是可独立阅读的讲义，两者应一起使用。
+目前已建立第 0–3 阶段；后续阶段在学习时逐步补充。仓库中的论文 PDF 是原始资料，中文笔记是可独立阅读的讲义，两者应一起使用。各阶段笔记篇数按主题复杂度安排。
 
 ## 仓库约定
 
@@ -55,3 +55,9 @@
 - [Open X-Embodiment 与 RT-X 精读讲义](./02-cross-embodiment/notes/01-Open-X-Embodiment.md)
 - [Octo 精读讲义](./02-cross-embodiment/notes/02-Octo.md)
 - [对照与带解析自测](./02-cross-embodiment/notes/03-对照与自测.md)
+
+## 第 3 阶段入口
+
+- [阅读安排、论文和官方资源](./03-openvla/README.md)
+- [OpenVLA：模型、动作 token 与训练](./03-openvla/notes/01-模型与训练.md)
+- [OpenVLA：实验、微调与局限](./03-openvla/notes/02-实验与微调.md)
