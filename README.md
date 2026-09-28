@@ -4,7 +4,7 @@
 
 ## 如何使用
 
-1. 按阶段阅读。从 [第 0 阶段：机器人模仿学习基础](./00-foundations/README.md) 开始，依次进入 [第 1 阶段：RT-1 与 RT-2](./01-rt-series/README.md)、[第 2 阶段：跨机器人数据与通用策略](./02-cross-embodiment/README.md)、[第 3 阶段：OpenVLA](./03-openvla/README.md)、[第 4 阶段：OpenVLA-OFT](./04-openvla-oft/README.md)和[第 5 阶段：π₀ 与 π₀.₅](./05-pi-series/README.md)。
+1. 按阶段阅读。从 [第 0 阶段：机器人模仿学习基础](./00-foundations/README.md) 开始，依次进入 [第 1 阶段：RT-1 与 RT-2](./01-rt-series/README.md)、[第 2 阶段：跨机器人数据与通用策略](./02-cross-embodiment/README.md)、[第 3 阶段：OpenVLA](./03-openvla/README.md)、[第 4 阶段：OpenVLA-OFT](./04-openvla-oft/README.md)、[第 5 阶段：π₀ 与 π₀.₅](./05-pi-series/README.md)和[第 6 阶段：π*₀.₆ 与 π₀.₇](./06-experience-generalization/README.md)。
 2. 时间紧时以中文讲义为主线：先读导学与讲义，再按讲义标出的图表和章节核对本地论文 PDF，最后做带解析的复盘题。
 3. 笔记中的流程图为本仓库绘制的概念示意；实验数字和具体实现以对应论文为准。
 4. 在读论文时持续记录：**问题设定 → 输入与动作表示 → 模型与损失 → 数据 → 实验 → 局限**。
@@ -22,7 +22,7 @@
 | 06 | 经验学习与泛化 | π*₀.₆、π₀.₇ |
 | 后续 | VLA 与世界模型的结合 | 视频预测、规划、想象式训练 |
 
-目前已建立第 0–5 阶段；后续阶段在学习时逐步补充。仓库中的论文 PDF 是原始资料，中文笔记是可独立阅读的讲义，两者应一起使用。各阶段笔记篇数按主题复杂度安排。
+目前已建立第 0–6 阶段的 VLA 主线；世界模型相关主题是后续方向。仓库中的论文 PDF 是原始资料，中文笔记是可独立阅读的讲义，两者应一起使用。各阶段笔记篇数按主题复杂度安排。
 
 ## 仓库约定
 
@@ -75,3 +75,10 @@
 - [π₀：架构、flow matching 与训练配方](./05-pi-series/notes/01-pi0-架构与训练.md)
 - [π₀.₅：混合训练与高低层推理](./05-pi-series/notes/02-pi05-架构与训练.md)
 - [FAST 与跨论文研究对照](./05-pi-series/notes/03-FAST与研究对照.md)
+
+## 第 6 阶段入口
+
+- [阅读路线、论文与官方资源](./06-experience-generalization/README.md)
+- [π*₀.₆：Recap 与实机经验学习](./06-experience-generalization/notes/01-Recap与pi-star-06.md)
+- [π₀.₇：可引导架构、数据与运行流程](./06-experience-generalization/notes/02-pi07-架构与训练.md)
+- [实验对照、研究边界与带解析自测](./06-experience-generalization/notes/03-实验对照与研究问题.md)
