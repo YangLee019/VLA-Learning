@@ -22,7 +22,7 @@
 | 06 | 经验学习与泛化 | π*₀.₆、π₀.₇ |
 | 后续 | VLA 与世界模型的结合 | 视频预测、规划、想象式训练 |
 
-目前已建立第 0–6 阶段的 VLA 主线；世界模型相关主题是后续方向。仓库中的论文 PDF 是原始资料，中文笔记是可独立阅读的讲义，两者应一起使用。各阶段笔记篇数按主题复杂度安排。
+目前已建立第 0–6 阶段的 VLA 主线，并增加了 [LingBot-VLA 系列拓展章节](./extensions/lingbot/README.md)；世界模型相关主题是后续方向。仓库中的论文 PDF 是原始资料，中文笔记是可独立阅读的讲义，两者应一起使用。各阶段笔记篇数按主题复杂度安排。
 
 ## 仓库约定
 
@@ -82,3 +82,9 @@
 - [π*₀.₆：Recap 与实机经验学习](./06-experience-generalization/notes/01-Recap与pi-star-06.md)
 - [π₀.₇：可引导架构、数据与运行流程](./06-experience-generalization/notes/02-pi07-架构与训练.md)
 - [实验对照、研究边界与带解析自测](./06-experience-generalization/notes/03-实验对照与研究问题.md)
+
+## 拓展章节：LingBot-VLA 系列
+
+- [阅读安排、论文与官方资源](./extensions/lingbot/README.md)
+- [LingBot-VLA 2.0：数据、动作空间与模型架构](./extensions/lingbot/notes/01-模型架构与数据.md)
+- [实机实验、消融与研究判断](./extensions/lingbot/notes/02-实验与对照.md)
